@@ -1912,6 +1912,7 @@
     "description": "A figure in combat gear, distorted and shattered like broken glass.  They thrash around as they move, an expression of shock and anguish frozen on their face.",
     "name": { "str": "mercenary ghost" },
     "copy-from": "mon_zombie_soldier_blackops_1",
+    "upgrades": false,
     "death_function": { "corpse_type": "NO_CORPSE", "message": "The soldier fades away to nothing." }
   },
   {
