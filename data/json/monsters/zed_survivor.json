@@ -32,6 +32,7 @@
     "description": "Wearing military surplus gear including an armored vest with patches of local militias, cartoon women, obscene statements, or local political groups.  This person definitely thought they were ready for the apocalypse.",
     "copy-from": "mon_zombie_survivor",
     "looks_like": "mon_zombie_survivor",
+    "upgrades": { "half_life": 42, "into_group": "GROUP_SOLDIER_UPGRADE" },
     "armor": { "bash": 10, "cut": 22, "bullet": 15, "electric": 2 },
     "weakpoint_sets": [ "wps_humanoid_body", "wps_humanoid_body_armor", "wps_humanoid_open_helmet" ],
     "death_drops": "mon_zombie_paramilitary_death_drops"
@@ -48,6 +49,7 @@
     "melee_skill": 9,
     "melee_dice_sides": 4,
     "melee_damage": [ { "damage_type": "cut", "amount": 5 } ],
+    "upgrades": { "half_life": 42, "into_group": "GROUP_SOLDIER_UPGRADE" },
     "weakpoint_sets": [ "wps_humanoid_body", "wps_humanoid_body_armor", "wps_humanoid_full_helmet" ],
     "death_drops": "mon_zombie_survivor_elite_death_drops",
     "armor": { "acid": 4, "bash": 15, "cut": 25, "stab": 18, "bullet": 20, "electric": 4 }
