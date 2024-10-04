@@ -85,11 +85,7 @@
   {
     "name": "GROUP_ZOMBIE_SCORCHED",
     "type": "monstergroup",
-    "monsters": [
-      { "monster": "mon_zombie_scorched", "weight": 985 },
-      { "monster": "mon_zombie_child_scorched", "weight": 10 },
-      { "monster": "mon_zombie_scorched_brute", "weight": 5, "cost_multiplier": 5 }
-    ]
+    "monsters": [ { "monster": "mon_zombie_scorched", "weight": 985 }, { "monster": "mon_zombie_child_scorched", "weight": 10 } ]
   },
   {
     "type": "monstergroup",
@@ -120,7 +116,6 @@
       { "monster": "mon_zombie_hazmat", "weight": 100, "cost_multiplier": 3 },
       { "monster": "mon_zombie_fireman", "weight": 100, "cost_multiplier": 2 },
       { "monster": "mon_zombie_swimmer_base", "weight": 100, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_static", "weight": 100, "cost_multiplier": 5 },
       { "monster": "mon_zombie_paramilitary", "weight": 10, "cost_multiplier": 25 },
       { "monster": "mon_zombie_survivor", "weight": 10, "cost_multiplier": 25, "starts": "30 days" },
       { "monster": "mon_zombie_survivor_elite", "weight": 10, "cost_multiplier": 25, "starts": "60 days" },
@@ -160,7 +155,6 @@
       { "monster": "mon_zombie_hazmat", "weight": 10, "cost_multiplier": 3 },
       { "monster": "mon_zombie_fireman", "weight": 10, "cost_multiplier": 2 },
       { "monster": "mon_zombie_swimmer_base", "weight": 10, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_static", "weight": 10, "cost_multiplier": 5 },
       { "monster": "mon_zombie_paramilitary", "weight": 1, "cost_multiplier": 25 },
       { "monster": "mon_zombie_survivor", "weight": 1, "cost_multiplier": 25, "starts": "30 days" },
       { "monster": "mon_zombie_survivor_elite", "weight": 1, "cost_multiplier": 25, "starts": "60 days" },
@@ -259,7 +253,6 @@
       { "monster": "mon_zombie_dog", "weight": 10, "cost_multiplier": 2 },
       { "monster": "mon_dog_zombie_rot", "weight": 5, "cost_multiplier": 2 },
       { "monster": "mon_zombie_swimmer_base", "weight": 20, "cost_multiplier": 2 },
-      { "monster": "mon_zombie_static", "weight": 30, "cost_multiplier": 5 },
       { "monster": "mon_zombie_paramilitary", "weight": 10, "cost_multiplier": 25 },
       { "monster": "mon_zombie_survivor", "weight": 1, "cost_multiplier": 25, "starts": "30 days" },
       { "monster": "mon_zombie_survivor_elite", "weight": 1, "cost_multiplier": 25, "starts": "60 days" }
@@ -298,7 +291,6 @@
       { "monster": "mon_dog_zombie_cop", "weight": 10, "cost_multiplier": 2 },
       { "monster": "mon_dog_zombie_rot", "weight": 10, "cost_multiplier": 2 },
       { "monster": "mon_zombie_swimmer_base", "weight": 20, "cost_multiplier": 2 },
-      { "monster": "mon_zombie_static", "weight": 30, "cost_multiplier": 5 },
       { "monster": "mon_feral_prepper_knife", "weight": 1, "cost_multiplier": 2, "starts": "10 days" },
       { "monster": "mon_feral_prepper_mace", "weight": 1, "cost_multiplier": 2, "starts": "10 days" },
       { "monster": "mon_feral_survivalist", "weight": 1, "cost_multiplier": 2, "starts": "29 days" },
@@ -355,7 +347,6 @@
       { "monster": "mon_dog_zombie_cop", "weight": 15, "cost_multiplier": 2 },
       { "monster": "mon_dog_zombie_rot", "weight": 40, "cost_multiplier": 2 },
       { "monster": "mon_zombie_swimmer_base", "weight": 20, "cost_multiplier": 2 },
-      { "monster": "mon_zombie_static", "weight": 30, "cost_multiplier": 5 },
       { "monster": "mon_zombie_paramilitary", "weight": 1, "cost_multiplier": 25 },
       { "monster": "mon_zombie_survivor", "weight": 1, "cost_multiplier": 25, "starts": "270 hours" },
       { "monster": "mon_zombie_survivor_elite", "weight": 1, "cost_multiplier": 25, "starts": "540 hours" },
@@ -383,7 +374,6 @@
       { "monster": "mon_dog_zombie_cop", "weight": 10, "cost_multiplier": 2 },
       { "monster": "mon_dog_zombie_rot", "weight": 10, "cost_multiplier": 2 },
       { "monster": "mon_zombie_swimmer_base", "weight": 20, "cost_multiplier": 2 },
-      { "monster": "mon_zombie_static", "weight": 180, "cost_multiplier": 5 },
       { "monster": "mon_zombie_paramilitary", "weight": 1, "cost_multiplier": 25 },
       { "monster": "mon_zombie_survivor", "weight": 1, "cost_multiplier": 25, "starts": "270 hours" },
       { "monster": "mon_zombie_survivor_elite", "weight": 1, "cost_multiplier": 25, "starts": "540 hours" }
@@ -411,7 +401,6 @@
       { "monster": "mon_dog_zombie_cop", "weight": 10, "cost_multiplier": 2 },
       { "monster": "mon_dog_zombie_rot", "weight": 10, "cost_multiplier": 2 },
       { "monster": "mon_zombie_swimmer_base", "weight": 20, "cost_multiplier": 2 },
-      { "monster": "mon_zombie_static", "weight": 30, "cost_multiplier": 5 },
       { "monster": "mon_zombie_paramilitary", "weight": 1, "cost_multiplier": 25 },
       { "monster": "mon_zombie_survivor", "weight": 1, "cost_multiplier": 25, "starts": "270 hours" },
       { "monster": "mon_zombie_survivor_elite", "weight": 1, "cost_multiplier": 25, "starts": "540 hours" }
@@ -427,8 +416,7 @@
       { "monster": "mon_zombie_child", "weight": 10 },
       { "monster": "mon_zombie_tough", "weight": 654, "cost_multiplier": 5 },
       { "monster": "mon_zombie_rot", "weight": 6, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_crawler", "weight": 4, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_static", "weight": 200, "cost_multiplier": 5 }
+      { "monster": "mon_zombie_crawler", "weight": 4, "cost_multiplier": 5 }
     ]
   },
   {
@@ -472,7 +460,6 @@
     "name": "GROUP_SMALL_STATION",
     "monsters": [
       { "group": "GROUP_CIVILIANS_STANDARD", "weight": 20, "cost_multiplier": 0 },
-      { "monster": "mon_zombie_static", "weight": 55, "cost_multiplier": 4, "pack_size": [ 1, 2 ] },
       { "monster": "mon_zombie_technician", "weight": 870 },
       { "monster": "mon_feral_human_tool", "weight": 150 },
       { "monster": "mon_zombie_technician", "weight": 50, "cost_multiplier": 5, "pack_size": [ 2, 4 ] },
@@ -485,7 +472,6 @@
     "name": "GROUP_LARGE_STATION",
     "monsters": [
       { "group": "GROUP_CIVILIANS_STANDARD", "weight": 100, "cost_multiplier": 0 },
-      { "monster": "mon_zombie_static", "weight": 55, "cost_multiplier": 4, "pack_size": [ 1, 2 ] },
       { "monster": "mon_zombie_technician", "weight": 870 },
       { "monster": "mon_zombie_technician", "weight": 50, "cost_multiplier": 5, "pack_size": [ 2, 4 ] },
       { "monster": "mon_zombie_tough", "weight": 25, "cost_multiplier": 0 }
@@ -510,7 +496,6 @@
       { "monster": "mon_feral_sailor_mop", "weight": 6, "cost_multiplier": 3 },
       { "monster": "mon_feral_sailor_axe", "weight": 4, "cost_multiplier": 4, "starts": "540 hours" },
       { "monster": "mon_feral_sailor_lug_wrench", "weight": 6, "cost_multiplier": 3, "starts": "86 hours" },
-      { "monster": "mon_zombie_static", "weight": 4, "cost_multiplier": 2, "starts": "86 hours" },
       { "monster": "mon_zombie_swimmer_base", "weight": 40 },
       { "monster": "mon_zombie_survivor", "weight": 4, "cost_multiplier": 5, "starts": "270 hours" },
       { "monster": "mon_zombie_survivor_elite", "weight": 2, "cost_multiplier": 5, "starts": "540 hours" },
@@ -550,8 +535,7 @@
       { "group": "GROUP_CIVILIANS_STANDARD", "weight": 100, "cost_multiplier": 0 },
       { "monster": "mon_zombie_prisoner", "weight": 290 },
       { "monster": "mon_zombie_prisoner_fat", "weight": 350, "cost_multiplier": 2 },
-      { "monster": "mon_zombie_prisoner_tough", "weight": 350, "cost_multiplier": 2 },
-      { "monster": "mon_zombie_static", "weight": 10, "cost_multiplier": 3 }
+      { "monster": "mon_zombie_prisoner_tough", "weight": 350, "cost_multiplier": 2 }
     ]
   },
   {
@@ -592,7 +576,6 @@
     "type": "monstergroup",
     "name": "GROUP_ZOMBULL_FROG_UPGRADE",
     "monsters": [
-      { "monster": "mon_zombullfrog", "weight": 100, "cost_multiplier": 3 },
       { "monster": "mon_frog_mummy", "weight": 25, "cost_multiplier": 3 },
       { "monster": "mon_frog_dad", "weight": 75, "cost_multiplier": 3 },
       { "monster": "mon_frog_mother", "weight": 25, "cost_multiplier": 1 },
@@ -603,7 +586,6 @@
     "type": "monstergroup",
     "name": "GROUP_DEADTOAD_UPGRADE",
     "monsters": [
-      { "monster": "mon_toad_zombie", "weight": 25, "cost_multiplier": 1 },
       { "monster": "mon_toad_bloat", "weight": 50, "cost_multiplier": 1 },
       { "monster": "mon_frog_mummy", "weight": 25, "cost_multiplier": 3 }
     ]
@@ -612,7 +594,6 @@
     "type": "monstergroup",
     "name": "GROUP_BLOAT_TOAD_UPGRADE",
     "monsters": [
-      { "monster": "mon_toad_bloat", "weight": 25, "cost_multiplier": 1 },
       { "monster": "mon_toad_wart", "weight": 25, "cost_multiplier": 1 },
       { "monster": "mon_toad_bone", "weight": 25, "cost_multiplier": 1 },
       { "monster": "mon_gastro_bufo", "weight": 25, "cost_multiplier": 1 },
@@ -623,7 +604,6 @@
     "type": "monstergroup",
     "name": "GROUP_ZOMBTREEFROG_UPGRADE",
     "monsters": [
-      { "monster": "mon_zombtreefrog", "weight": 75, "cost_multiplier": 3 },
       { "monster": "mon_frog_shadow", "weight": 25, "cost_multiplier": 3 },
       { "monster": "mon_frog_husk", "weight": 25, "cost_multiplier": 3 }
     ]
@@ -652,7 +632,6 @@
       { "monster": "mon_zombie_hazmat", "weight": 10, "cost_multiplier": 3 },
       { "monster": "mon_zombie_fireman", "weight": 10, "cost_multiplier": 2 },
       { "monster": "mon_zombie_swimmer_base", "weight": 10, "cost_multiplier": 5 },
-      { "monster": "mon_zombie_static", "weight": 10, "cost_multiplier": 5 },
       { "monster": "mon_zombie_paramilitary", "weight": 1, "cost_multiplier": 25 },
       { "monster": "mon_zombie_survivor", "weight": 1, "cost_multiplier": 25, "starts": "30 days" },
       { "monster": "mon_zombie_survivor_elite", "weight": 1, "cost_multiplier": 25, "starts": "60 days" },
@@ -681,7 +660,6 @@
       { "monster": "mon_zombie_crawler", "weight": 15, "cost_multiplier": 3 },
       { "monster": "mon_zombie_soldier", "weight": 5, "cost_multiplier": 2 },
       { "monster": "mon_zombie_hazmat", "weight": 5, "cost_multiplier": 3 },
-      { "monster": "mon_zombie_static", "weight": 5, "cost_multiplier": 5 },
       { "monster": "mon_zombie_paramilitary", "weight": 1, "cost_multiplier": 25 },
       { "monster": "mon_zombie_survivor", "weight": 1, "cost_multiplier": 25 },
       { "monster": "mon_zombie_survivor_elite", "weight": 1, "cost_multiplier": 25, "starts": "60 days" },
@@ -1033,7 +1011,6 @@
       { "monster": "mon_zombie_crawler", "weight": 5 },
       { "monster": "mon_zombie_brainless", "weight": 5 },
       { "monster": "mon_zombie_medical", "weight": 20 },
-      { "monster": "mon_boomer", "weight": 3 },
       { "monster": "mon_feral_human_pipe", "weight": 3 }
     ]
   },
@@ -1059,7 +1036,6 @@
       { "monster": "mon_zombie_crawler", "weight": 5 },
       { "monster": "mon_zombie_brainless", "weight": 5 },
       { "monster": "mon_zombie_child", "weight": 3 },
-      { "monster": "mon_boomer", "weight": 5 },
       { "monster": "mon_zombie_dog", "weight": 5 },
       { "monster": "mon_feral_human_pipe", "weight": 5 },
       { "monster": "mon_feral_human_crowbar", "weight": 3 }
