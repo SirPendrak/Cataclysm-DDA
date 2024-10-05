@@ -132,6 +132,7 @@
         "monster_message": "The shrike shifts and disappears amidst an electric surge!"
       }
     ],
+    "upgrades": false,
     "extend": { "flags": [ "ELECTRIC", "HARDTOSHOOT" ] },
     "armor": { "electric": 3, "bash": 40, "cut": 40, "bullet": 30 }
   }
